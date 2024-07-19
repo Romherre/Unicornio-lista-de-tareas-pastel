@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FFB6C1, #E6E6FA, #ADD8E6, #DDA0DD); /* Degradado tornasolado pastel sin verde */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FFFACD; /* Blanco */
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: 100px;
+    border-radius: 50%; /* Hacer circular */
+    object-fit: cover; /* Ajustar imagen al contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #CCC; /* Gris Claro */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #D8BFD8; /* Lila Pastel */
+    color: rgb(65, 62, 62);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+}
+
+button:hover {
+    background-color: #CDA4D6; /* Lila más oscuro */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background: #FFDAB9; /* Naranja Pastel */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:nth-child(odd) {
+    background: #FFDEAD; /* Naranja Pastel más claro */
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888; /* Gris Medio */
+}
+
+.remove-btn {
+    background: #E91E63; /* Rosa Fucsia */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-btn:hover {
+    background: #C2185B; /* Rosa más oscuro */
+}
+
+.progress-container {
+    background: #C8E6C9; /* Verde Pastel */
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 20px;
+    background: #A5D6A7; /* Verde Pastel más oscuro */
+    border-radius: 25px;
+    width: 0;
+}
+
+/* #congratulations-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #FFB6C1; 
+    font-size: 20px;
+} */
+
+
+/* #congratulations-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF; 
+    font-size: 20px;
+    background-color: #FF6347; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #FF4500;
+} */
+
+
+
+#congratulations-message {
+    text-align: center;
+    margin: 10px auto; /* Centra el mensaje horizontalmente */
+    color: #FFFFFF; /* Texto blanco */
+    font-size: 20px;
+    background: linear-gradient(to right, #FFB6C1, #E6E6FA, #ADD8E6, #DDA0DD); /* Degradado tornasolado pastel */
+    padding: 10px 20px; /* Ajusta el padding para que rodee el texto de manera adecuada */
+    border-radius: 20px; /* Redondear las esquinas del contenedor */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Sombra */
+    border: 1px solid #1ddbe9; /* Borde azul claro */
+    display: inline-block; /* Ajusta el ancho al contenido */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra de texto para crear un borde */
+}
+
